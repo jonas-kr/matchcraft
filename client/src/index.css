@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .flexCenter {
+        @apply flex justify-center items-center
+    }
+
+    .flexBetween {
+        @apply flex justify-between items-center
+    }
+.flexEnd{
+    @apply flex justify-end items-end
+}
+    .input {
+        @apply block w-full p-2 bg-[#B9D3B9] rounded-md placeholder:text-base outline-none mb-6
+    }
+
+    .btn {
+        @apply block w-full bg-slate-600 text-white p-2 rounded-md
+         bg-[#212529]
+    }
+
+    h2{
+        @apply font-bold text-3xl
+    }
+    h3{
+        @apply text-lg font-medium 
+    }
+    p{
+        @apply text-base font-medium
+    }
+    label{
+        @apply text-2xl  font-medium mb-2
+
+    }
+    
+}
